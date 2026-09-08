@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aa5195f80a54b82bbb452d4d376439, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: ZooWorld::Kadoy.ZooWorld.AnimalData
+  _foodChainRole:
+    rid: 2
+  _prefab: {fileID: 7291609296016706528, guid: 70a54da4470c24eb7bb191a8f0e90605, type: 3}
+  _movement:
+    rid: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 1
+      type: {class: JumpMovementData, ns: Kadoy.ZooWorld, asm: ZooWorld}
+      data:
+        _distanceMeters: 1.7
+        _durationSeconds: 0.45
+        _intervalSeconds: 1.35
+        _heightMeters: 0.65
+    - rid: 2
+      type: {class: PreyRole, ns: Kadoy.ZooWorld, asm: ZooWorld}
+      data: {}

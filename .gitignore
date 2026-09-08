@@ -92,3 +92,7 @@ Desktop.ini.meta
 *.ulf
 
 # Keep Assets (including .meta files), Packages, and ProjectSettings in Git.
+
+# NuGetForUnity restores these from Assets/packages.config.
+/Assets/Packages/
+/Assets/Packages.meta

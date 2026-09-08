@@ -1,0 +1,5 @@
+{
+    "name": "ZooWorld",
+    "rootNamespace": "Kadoy.ZooWorld",
+    "references": ["VContainer", "Unity.ugui", "R3.Unity", "MackySoft.SerializeReferenceExtensions"]
+}

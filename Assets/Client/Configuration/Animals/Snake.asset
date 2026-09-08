@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aa5195f80a54b82bbb452d4d376439, type: 3}
+  m_Name: Snake
+  m_EditorClassIdentifier: ZooWorld::Kadoy.ZooWorld.AnimalData
+  _prefab: {fileID: 8947528880067688105, guid: 8ed773653b9524b0eba8d7e69150924f, type: 3}
+  _foodChainRole:
+    rid: 390763323432632542
+  _movement:
+    rid: 390763323432632544
+  references:
+    version: 2
+    RefIds:
+    - rid: 390763323432632542
+      type: {class: PredatorRole, ns: Kadoy.ZooWorld, asm: ZooWorld}
+      data: 
+    - rid: 390763323432632544
+      type: {class: LinearMovementData, ns: Kadoy.ZooWorld, asm: ZooWorld}
+      data:
+        _speedMetersPerSecond: 1.8
