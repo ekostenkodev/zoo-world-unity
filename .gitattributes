@@ -1,0 +1,46 @@
+# Normalize text across macOS, Windows, and Linux; detect binary assets safely.
+* text=auto eol=lf
+
+# Unity YAML files should remain readable in diffs.
+*.meta text
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.controller text
+*.overrideController text
+*.physicMaterial text
+*.physicsMaterial2D text
+
+# .asset files may be YAML or binary, so retain automatic detection.
+*.asset text=auto
+
+# Binary source assets and plugins must never undergo line-ending conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.psd binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.hdr binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.zip binary
+*.7z binary
+*.tgz binary
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
